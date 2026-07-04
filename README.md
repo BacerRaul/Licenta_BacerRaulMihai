@@ -27,7 +27,7 @@ III. Pașii de lansare:
 
 
 
-IV. Pașii de instalare, compilare și lansare a aplicației:
+IV. Pașii compleți pentru punerea aplicației în funcțiune:
 
 1) Se conectează placa Arduino Uno R3 la calculatorul personal, prin intermediul unui cablu USB.
 2) Codul sursă scris în limbajul C++ este compilat și încărcat pe placă utilizând aplicația Arduino IDE.
