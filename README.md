@@ -10,12 +10,13 @@ Pașii de compilare, instalare și lansare a aplicației:
 6) Se creează un director care va fi folosit ulterior folosind comanda "mkdir [numeDirector]".
 
 7) Se conectează calculatorul personal la placa Raspberry Pi 1 Model B+, prin intermediul aplicației WinSCP, pe baza adresei IP a plăcii.
-8) Se transferă fișierul care conține codul sursă, scris în limbajul de programare C, de pe calculatorul personal pe placă în directorul creat anterior.
+8) Se autentifică utilizatorul prin nume de utilizator și parolă.
+9) Se transferă fișierul care conține codul sursă, scris în limbajul de programare C, de pe calculatorul personal pe placă în directorul creat anterior.
 
-9) Se conectează placa Arduino Uno R3 la placa Raspberry Pi 1 Model B+, prin intermediul unui cablu USB.
+10) Se conectează placa Arduino Uno R3 la placa Raspberry Pi 1 Model B+, prin intermediul unui cablu USB.
 
-10) Se navighează în directorul în care se află codul sursă folosind comanda "cd [numeDirector]", prin intermediul aplicației PuTTY.
-11) Codul sursă se compilează folosind comanda "gcc [numeFișier].c -o [numeExecutabil]".
-12) Executabilul se rulează folosind comanda "sudo ./[numeExecutabil]".
+11) Se navighează în directorul în care se află codul sursă folosind comanda "cd [numeDirector]", prin intermediul aplicației PuTTY.
+12) Codul sursă se compilează folosind comanda "gcc [numeFișier].c -o [numeExecutabil]".
+13) Executabilul se rulează folosind comanda "sudo ./[numeExecutabil]", după care se introduce parola.
 
 În cadrul proiectului, directorul utilizat se numește "Raul", fișierul care conține codul sursă pentru Arduino Uno R3 se numește "FinalArduino", iar cel care conține codul sursă pentru Raspberry Pi 1 Model B+ se numește "FinalRaspberry". Aceste denumiri nu influențează funcționarea corectă a sistemului.
