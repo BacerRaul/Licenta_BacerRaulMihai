@@ -47,7 +47,3 @@ IV. Pașii compleți pentru punerea aplicației în funcțiune:
 12) Se navighează în directorul în care se află codul sursă folosind comanda "cd [numeDirector]", prin intermediul aplicației PuTTY.
 13) Codul sursă se compilează folosind comanda "gcc [numeFișier].c -o [numeExecutabil]".
 14) Executabilul se rulează folosind comanda "sudo ./[numeExecutabil]", după care se introduce parola.
-
-
-
-În cadrul proiectului, directorul utilizat se numește "Raul", fișierul care conține codul sursă pentru Arduino Uno R3 se numește "FinalArduino", iar cel care conține codul sursă pentru Raspberry Pi 1 Model B+ se numește "FinalRaspberry". Aceste denumiri nu influențează funcționarea corectă a sistemului.
